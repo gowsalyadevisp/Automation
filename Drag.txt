@@ -1,0 +1,1 @@
+Drag and Drop isn automation basically done with help of the actions class drag and drop().
