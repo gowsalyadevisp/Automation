@@ -1,0 +1,6 @@
+System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
+		WebDriver d= new ChromeDriver();
+d.get("https://www.techlistic.com/p/selenium-practice-form.html");
+Thread.sleep(5000);
+d.findElement(By.cssSelector("input[name='firstname']")).sendKeys("Gowsalya");
+d.findElement(By.cssSelector("input[name='lastname']")).sendKeys("devi");
